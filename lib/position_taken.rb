@@ -3,4 +3,7 @@ def position_taken?(board, index)
   position = board [index]
   if position == nil
     false
+  else
+    true
+  end
 end
